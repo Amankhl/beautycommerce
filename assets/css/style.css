@@ -961,6 +961,13 @@ body {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+@media (max-width: 927px) {
+  .bannerimg{
+    display: none;
+  }
+
+}
+
 
 /**
  * responsive for larger than 575px screen
@@ -1003,7 +1010,6 @@ body {
   .hero-card { padding-inline: 70px; }
 
   .hero-text { max-width: 30ch; }
-
 
 
   /**
